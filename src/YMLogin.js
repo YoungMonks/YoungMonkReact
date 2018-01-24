@@ -132,6 +132,7 @@ export default class YMLogin extends Component<{}> {
                             </View>
 
                         </ImageBackground>
+
                         <TouchableOpacity style={styles.loginPush} onPress={this.onPush} activeOpacity={1}>
                             <Image style={{height:52,width:52,}} source={require('./YMImage/iconLogin.png')}/>
                         </TouchableOpacity>
